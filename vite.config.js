@@ -19,6 +19,7 @@ export default defineConfig(({mode}) => {
 
   return {
     plugins: [svelte(), htmlPlugin()],
+    base: '/sexy-pokemon-trainer-cards/',
     server: {
       watch: {
         usePolling: false
