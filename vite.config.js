@@ -1,7 +1,6 @@
 import { defineConfig, loadEnv } from 'vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
 
-// https://vitejs.dev/config/
 export default defineConfig(({mode}) => {
 
   const venv = loadEnv(mode, process.cwd(), '')
@@ -20,7 +19,6 @@ export default defineConfig(({mode}) => {
 
   return {
     plugins: [svelte(), htmlPlugin()],
-    base: '/sexy-pokemon-trainer-cards/',
     server: {
       watch: {
         usePolling: false
