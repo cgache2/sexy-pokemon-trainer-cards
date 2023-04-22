@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://cgache2.github.io",
+  "homepage": "https://cgache2.github.io/sexy-pokemon-trainer-cards",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
