@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.1.0",
