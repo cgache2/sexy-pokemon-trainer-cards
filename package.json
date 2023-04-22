@@ -9,9 +9,17 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
     "@sveltejs/vite-plugin-svelte": "^1.1.0",
     "pokemontcgsdk": "^2.0.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-svelte": "^7.1.4",
     "svelte": "^3.52.0",
     "vite": "^3.2.0"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
